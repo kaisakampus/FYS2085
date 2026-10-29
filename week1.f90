@@ -3,10 +3,11 @@
 ! lines from the Introduction slides
 program hello
     implicit none
-    print *,'Hello'
- 
     real :: x
     integer :: i
+
+    print *,'Hello'
+ 
     do i=1,10000
         x=0.001*i
         print *,x,sin(x**2)
