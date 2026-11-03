@@ -1,4 +1,4 @@
-program p3
+program p4
     implicit none
     ! i do not want the numbers to be rounded
     real :: v1, v10, v100
@@ -14,4 +14,4 @@ program p3
     print *, "velocity at height 1 meters:", v1, "m/s"
     print *, "velocity at height 10 meters:", v10, "m/s"
     print *, "velocity at height 100 meters:", v100, "m/s"
-end program p3
+end program p4

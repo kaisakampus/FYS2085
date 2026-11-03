@@ -28,3 +28,9 @@ y=b
 (2.0+3.0)/3=1.66666663
 ! using larger real kind allows higher precision (more digits)
 (2.0+3.0)/3.0_rk=1.6666666666666667
+
+Problem 4. The output is:
+The ball has a
+ velocity at height 1 meters:   4.42718887     m/s
+ velocity at height 10 meters:   14.0000000     m/s
+ velocity at height 100 meters:   44.2718887     m/s
