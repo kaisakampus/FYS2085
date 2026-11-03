@@ -34,3 +34,7 @@ The ball has a
  velocity at height 1 meters:   4.42718887     m/s
  velocity at height 10 meters:   14.0000000     m/s
  velocity at height 100 meters:   44.2718887     m/s
+
+Problem 5. The output is:
+
+Problem 6. The output is:
