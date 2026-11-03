@@ -58,5 +58,7 @@ Problem 6. The output of p6.f90 is:
 1.00000000       2.00000000    
 2.00000000      -7.00000000    
 3.00000000      -22.0000000
+
+Inside the p6 folder: cd p6
 I redirecred the output into a p6.txt file with ./p6.exe > p6.txt
 I ran python3 p6.py after that
