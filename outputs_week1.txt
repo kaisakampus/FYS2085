@@ -36,5 +36,18 @@ The ball has a
  velocity at height 100 meters:   44.2718887     m/s
 
 Problem 5. The output is:
+ L=cosh(x) and R=(exp(x)+exp(-x))/2
+ the order of magnitude of the relative difference between L and R is
+        -Infinity at x=   0.00000000    
+        -Infinity at x=  0.100000001    
+        -Infinity at x=  0.200000003    
+        -Infinity at x=  0.300000012    
+        -Infinity at x=  0.400000006    
+        -Infinity at x=  0.500000000    
+        -Infinity at x=  0.600000024    
+        -Infinity at x=  0.699999988    
+  -7.04996252     at x=  0.800000012    
+        -Infinity at x=  0.899999976    
+  -7.11207867     at x=   1.00000000
 
 Problem 6. The output is:
