@@ -13,7 +13,7 @@ do i=-3,3
     else
         f = -3.0*t**2 + 5.0
     end if
-    print *, "value at t=", t, "is", f
+    print *, t,f
 end do
 
 end program p6
