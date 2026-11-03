@@ -1,0 +1,30 @@
+Problem 2. The typical command line in the terminal to run a code is gfortran -o file.exe file.f90, where exe is the executable file.
+The commands I gave were:
+gfortran -o moi.exe hello.f90
+./moi.exe
+The output of the last command was:
+Thank you for compiling and executing
+ this program!
+
+Problem 3. The output is:
+           1
+   1.66666663    
+   1.66666663    
+   1.6666666666666667
+This is because in the code:
+integer,parameter :: rk=selected_real_kind(r=200)
+integer :: a=2, b=3
+real :: x, y
+
+! integers become real numbers when x and y is used: x=2.0, y=3.0
+x=a
+y=b
+
+! integer division is rounded
+(2+3)/3=5/3=1
+! real number division is not rounded
+(2.0+3.0)/3.0=1.66666663
+! when the equation has at least one real number, then it is not rounded
+(2.0+3.0)/3=1.66666663
+! using larger real kind allows higher precision (more digits)
+(2.0+3.0)/3.0_rk=1.6666666666666667
