@@ -43,3 +43,24 @@ Problem 3.a. The output:
    1.0000100000000001     
    9.9999999998434674E-006
 I comment out on lines 4 and 5 the kind specifiers (_rk). The output then becomes:
+1.0000200271606445     
+   1.0000100135803223     
+   1.0013580322265625E-005
+The difference between these two outputs is that the 2nd run values are rounded, and the error becomes larger.
+
+Problem 3.b. The output is:
+   1.00002003    
+   1.00001001    
+
+   1.00135803E-05
+   2.00003004    
+
+   2.00274608E-05
+   2.00271606E-05
+   2.00271606E-05
+Three functions that are supposedly the same provide different results because:
+x and y in rk4 makes the computer choose both values with more digits than are specified. This change introduces an error.
+Subtractions and sums in t3 have the least rounding and these happen before multiplication.
+t4 and t5 that use squares, end up being rounded to single precision, before they subtract or sum.
+
+Problem 4.
