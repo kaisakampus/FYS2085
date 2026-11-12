@@ -1,0 +1,2 @@
+Problem 2. The iteration counts of do loops, the values of loop iteration variable i inside the loop, its value after the do construct.
+The output of my program:
