@@ -160,4 +160,7 @@ Problem 5.b. The output:
  then divided by 2.0:  0.999999940    
  machine epsilon of 1.0 and 1.0 are not equal.
 
-Problem 6. 
+Problem 6. The number of digits depends on the kind used. It is visible from the output:
+   15.4036827       16.695311365857272        16.6953113658598513765         16.6953113658598518153991189395434441
+The rounding has made these values different as well. For example kind 8 and kind 10 only match up until 13th digit.
+This comes from the rounding at every addition and the amount of error that grows depends on the kind.
