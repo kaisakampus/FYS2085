@@ -153,4 +153,11 @@ After modification:
  smallest positive number of real(10) is   3.36210314311209350626E-4932
  smallest positive number of real(16) is   3.36210314311209350626267781732175260E-4932
 
-Problem 5.b. 
+Problem 5.b. The output:
+ addition:   1.00000012    
+ then divided by 2.0:   1.00000000    
+ subtraction:  0.999999881    
+ then divided by 2.0:  0.999999940    
+ machine epsilon of 1.0 and 1.0 are not equal.
+
+Problem 6. 
