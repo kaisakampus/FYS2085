@@ -144,4 +144,13 @@ After modification:
 
    Problem 5.a. What are the properties largest number and smallest positive number of these floating point kinds?
    The output:
-   
+    largest number of real(4) is   3.40282347E+38
+ largest number of real(8) is   1.7976931348623157E+308
+ largest number of real(10) is   1.18973149535723176502E+4932
+ largest number of real(16) is   1.18973149535723176508575932662800702E+4932
+ smallest positive number of real(4) is   1.17549435E-38
+ smallest positive number of real(8) is   2.2250738585072014E-308
+ smallest positive number of real(10) is   3.36210314311209350626E-4932
+ smallest positive number of real(16) is   3.36210314311209350626267781732175260E-4932
+
+Problem 5.b. 
