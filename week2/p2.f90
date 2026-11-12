@@ -22,7 +22,7 @@ end do
 print*, "iteration count:", x
 print*, "value of the final i:", i
 
-print,* "i=10,1,-2"
+print*, "i=10,1,-2"
 print*, "values of i:"
 x=0
 do i=10,1,-2
