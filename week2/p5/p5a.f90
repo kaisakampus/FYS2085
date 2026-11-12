@@ -1,4 +1,4 @@
-program p5
+program p5a
 implicit none
 ! largest number and smallest positive number of floating point kinds
 ! slide 16 has huge(x) and tiny(x) functions
@@ -20,4 +20,4 @@ print*,"smallest positive number of real(8) is", tiny(b)
 print*,"smallest positive number of real(10) is", tiny(c)
 print*,"smallest positive number of real(16) is", tiny(d)
 
-end program p5
+end program p5a
