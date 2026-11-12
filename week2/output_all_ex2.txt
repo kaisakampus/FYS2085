@@ -142,4 +142,6 @@ After modification:
    I had to look this up, but in gfortran this is kind 1 instead that holds -128 to 127.
    2^i with even numbers will exceed 127 mark, but the uneven 3^i will keep on wrapping around the last value of the kind.
 
-   Problem 5.a. 
+   Problem 5.a. What are the properties largest number and smallest positive number of these floating point kinds?
+   The output:
+   
