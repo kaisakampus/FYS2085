@@ -1,2 +1,41 @@
 Problem 2. The iteration counts of do loops, the values of loop iteration variable i inside the loop, its value after the do construct.
 The output of my program:
+i=0,5
+ values of i:
+           0
+           1
+           2
+           3
+           4
+           5
+ iteration count:           6
+ value of final i:           6
+ i=5,1,-1
+ values of i:
+           5
+           4
+           3
+           2
+           1
+ iteration count:           5
+ value of the final i:           0
+ i=10,1,-2
+ values of i:
+          10
+           8
+           6
+           4
+           2
+ iteration count:           5
+ value of the final i:           0
+ i=0,30,7
+ values of i:
+           0
+           7
+          14
+          21
+          28
+ iteration count:           5
+ value of the final i:          35
+
+Problem 3.
