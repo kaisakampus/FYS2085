@@ -32,7 +32,7 @@ end do
 print*, "iteration count:", x
 print*, "value of the final i:", i
 
-print,* "i=0,30,7"
+print*, "i=0,30,7"
 print*, "values of i:"
 x=0
 do i=0,30,7
