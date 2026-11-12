@@ -116,4 +116,15 @@ Problem 4.a. The output is:
           50          -1
 This means that my compiler supports: rk4, rk8, rk10, rk16.
 
-Problem 4.b.
+Problem 4.b. The output without modification is:
+    1    2
+    2    4
+    3    8
+    4   16
+    5   32
+    6   64
+    7 -128
+    8    0
+    9    0
+   10    0
+   
