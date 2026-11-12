@@ -38,4 +38,8 @@ i=0,5
  iteration count:           5
  value of the final i:          35
 
-Problem 3.
+Problem 3.a. The output:
+1.0000199999999999     
+   1.0000100000000001     
+   9.9999999998434674E-006
+I comment out on lines 4 and 5 the kind specifiers (_rk). The output then becomes:
