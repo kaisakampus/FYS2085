@@ -3,8 +3,7 @@ program p1
 
     ! Instructions had a note that using constants for infinity 1.0/0.0 is not effective and that I should use variables instead.
     ! The variables will be assigned vales 1.0/0.0 and -1.0/0.0. The variables will be used in the divisions.
-    real :: nominator, denominator, infinity, neg_infinity
-    real :: prod1, prod2
+    real :: nominator, denominator, infinity, neg_infinity, first, second
 
     nominator = 1.0
     denominator = 0.0
