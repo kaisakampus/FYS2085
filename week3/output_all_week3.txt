@@ -1,0 +1,7 @@
+Problem 2. The commands I used were gfortran p2.f90 -o p2w3 and ./p2w3. The output was:
+ square root of a real variable:              NaN
+ division 0.0/0.0:              NaN
+ NaN is true when x is not equal to itself x/=x. Checking both (1) and (2):
+ we have a NaN
+ we have a NaN
+ 
