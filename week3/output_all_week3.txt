@@ -5,3 +5,7 @@ Problem 2. The commands I used were gfortran p2.f90 -o p2w3 and ./p2w3. The outp
  we have a NaN
  we have a NaN
  
+Problem 3. The commands I used were gfortran p3.f90 -o p3w3 and ./p3w3. The output was:
+ The rank is 7.
+ size(a) is         128
+ shape(a) is           2           2           2           2           2           2           2
