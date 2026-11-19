@@ -34,7 +34,7 @@ program p6b
 
     open(11, file='weeklyavg.txt')
     do i = 1, NOweeks
-        write(11, *) i, weekly(i)
+        write(11, *) weekly(i)
     end do
     close(11)
 end program p6b
