@@ -26,3 +26,7 @@ Problem 5. Initial run with gfortran -O2 array_access.f90 -o p5w3 and ./p5w3 res
  cpu1/cpu2    5.3108821733480349     
 The first column shows the loop type, the 2nd column the time it took, and the 3rd column is the result of maxval(a).
 Cpu2 is about 5 times faster because of the i in a(i)=j that makes the computations run in the growing input order instead of random.
+
+Problem 6.a. The output I got was: the mean temperature is   7.16374063
+
+Problem 6.b.
