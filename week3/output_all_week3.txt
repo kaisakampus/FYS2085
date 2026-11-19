@@ -19,3 +19,10 @@ And the output is:
            0           0           0           0
            5           6           7          18
            6           8          10
+
+Problem 5. Initial run with gfortran -O2 array_access.f90 -o p5w3 and ./p5w3 resulted in the following output:
+ cpu1    2.3744369999999999                  99999997
+ cpu2   0.44708900000000007                  99999998
+ cpu1/cpu2    5.3108821733480349     
+The first column shows the loop type, the 2nd column the time it took, and the 3rd column is the result of maxval(a).
+Cpu2 is about 5 times faster because of the i in a(i)=j that makes the computations run in the growing input order instead of random.
