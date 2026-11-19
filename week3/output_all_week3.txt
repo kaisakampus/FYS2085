@@ -29,4 +29,4 @@ Cpu2 is about 5 times faster because of the i in a(i)=j that makes the computati
 
 Problem 6.a. The output I got was: the mean temperature is   7.16374063
 
-Problem 6.b.
+Problem 6.b. The plots are saved in p6 folder as 1.png (original data) and 2.png (weekly average).
