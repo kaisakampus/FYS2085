@@ -17,5 +17,5 @@ program p1
     second = infinity * neg_infinity
 
     ! results
-    print*, "positive:" infinity, "negative:", neg_infinity, "positive x positive:", first, "positive x negative:", second
+    print*, "positive:", infinity, "negative:", neg_infinity, "positive x positive:", first, "positive x negative:", second
 end program p1
