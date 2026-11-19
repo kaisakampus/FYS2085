@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 og = np.loadtxt("Kumpula_daily_temperature.dat", skiprows=1)
 
 #weekly average
-weeks, weekly = np.loadtxt("weeklyavg.txt", unpack=True)
+weeklyavg = np.loadtxt("weeklyavg.txt", unpack=True)
 
 #first plot
 plt.figure()
@@ -15,13 +15,13 @@ plt.xlabel("Day NO")
 plt.ylabel("Temperature")
 plt.title("Daily Mean Temperature")
 plt.savefig('1.png')
+plt.show()
 
 #2nd plot
 plt.figure()
-plt.plot(weeks, weekly)
-plt.xlabel('Week')
-plt.ylabel('Temperature (°C)')
-plt.title('Weekly average temperature in Kumpula')
-plt.savefig('weekly.png')
-
+plt.plot(weeklyavg)
+plt.xlabel("Week NO")
+plt.ylabel("Average Temperature")
+plt.title("Weekly Average Temperature")
+plt.savefig('2.png')
 plt.show()
