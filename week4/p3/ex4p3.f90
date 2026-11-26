@@ -19,7 +19,10 @@ program ex4p3
   ! ---- End of RNG setup
 
   ! print a to see what random numbers there are
+  ! quite obvious, but I cannot use i outside loops, so debugging:
+  do i=1,n
    print*, a(i,:)
+  end do
 
   ! Your additions come here: where-elsewhere construct
   ! elements x<0.5 -> 0
@@ -34,5 +37,7 @@ program ex4p3
   end where
 
   ! after sorting the result is
+do i=1,n
   print*, a(i,:)
+end do
 end program ex4p3
