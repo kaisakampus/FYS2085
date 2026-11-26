@@ -25,7 +25,7 @@ implicit none
     print*, b(1,1), b(1,3)
     print*, b(3,1), b(3,3)
     ! c array: 2nd and 3rd row 2nd and 3rd element
-    print*, c(2,2:3)
-    print*, c(3,2:3)
+    print*, c(2,2), c(2,3)
+    print*, c(3,2), c(3,3)
 
 end program p1
