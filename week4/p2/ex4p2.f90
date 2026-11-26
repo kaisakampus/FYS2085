@@ -30,7 +30,7 @@ program ex4p2
   !end do
 
 
-   c(1:n:2, 1:n:2)=10*c(1:n:2,1:n,2)
+   c(1:n:2, 1:n:2)=10*c(1:n:2,1:n:2)
   !do j=1,n,2
      !do i=1,n,2
         !c(i,j)=10*c(i,j)
