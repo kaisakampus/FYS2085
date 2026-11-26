@@ -12,3 +12,6 @@ Problem 3. The output after changes is:
   0.935714722      0.960958242      0.750000000       0.00000000      0.750000000    
   0.799815774      0.810983360       0.00000000       0.00000000      0.750000000    
   0.888478041       0.00000000      0.868973136       0.00000000      0.750000000
+
+  Problem 4. My p4 folder had just one file while I ran it, so the output became:
+   p4.f90         250
