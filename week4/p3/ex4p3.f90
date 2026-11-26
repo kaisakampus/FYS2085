@@ -25,6 +25,7 @@ program ex4p3
   ! elements x<0.5 -> 0
   ! if x in [0.5, 0.75] then: a=0.75
   ! x > 0.75 -> x=x
+  ! basically x=[0.5, 0.75] -> max(a,0.75)
 
   where (a<0.5)
     a=0
