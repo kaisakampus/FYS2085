@@ -15,7 +15,7 @@ implicit none
     end do
 
     do i = 1, 4
-        read *, c(4,:) 
+        read *, c(i,:) 
     end do
 
 ! printing part
