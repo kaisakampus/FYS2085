@@ -26,12 +26,12 @@ program ex4p3
   ! if x in [0.5, 0.75] then: a=0.75
   ! x > 0.75 -> x=x
 
-  where (a<0.5):
+  where (a<0.5)
     a=0
-  elsewhere:
+  elsewhere
     a=max(a, 0.75)
   end where
-  
+
   ! after sorting the result is
   print*, a(i,:)
 end program ex4p3
