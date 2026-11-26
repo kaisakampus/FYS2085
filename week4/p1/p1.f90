@@ -1,7 +1,8 @@
 program p1
 implicit none
     ! I will still need i for loops.
-    integer :: a(1,4), b(3,3), c(4,4)
+    ! a: 1 row, 4 elements. b: 3 rows, 3 elements each. c: 4 rows, 4 elements each.
+    integer :: a(1,4), b(3,3), c(4,4), i
 
     ! When i type in 123456789 then i need to do it in 3 rows. Three dim=2 input array slices x(i,N):
     do i = 1, 1
@@ -14,15 +15,15 @@ implicit none
     end do
 
     do i = 1, 4
-        read *, c(4,4) 
+        read *, c(4,:) 
     end do
 
 ! printing part
     ! a array: 3rd and 4th element
-    print*, a(1,3,4)
+    print*, a(1,3:4)
     ! b array: first and last element of first and last row
-    print*, b(1,1,3)
-    print*, b(3,1,3)
+    print*, b(1,1), b(1,3)
+    print*, b(3,1), b(3,3)
     ! c array: 2nd and 3rd row 2nd and 3rd element
     print*, c(2,2:3)
     print*, c(3,2:3)
